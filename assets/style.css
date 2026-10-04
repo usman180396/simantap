@@ -1,0 +1,13 @@
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f1f6f3;color:#17301f;line-height:1.5}
+header{background:#0f7a43;color:#fff;text-align:center;padding:16px}header h1{margin:0;font-size:1.3rem}header p{margin:2px 0 0}
+nav{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;padding:10px}nav a,.btn{background:#0f7a43;color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none;border:0;font-size:1rem;cursor:pointer;display:inline-block}
+.btn.sec{background:#fff;color:#0f7a43;border:1px solid #0f7a43}
+main{max-width:900px;margin:0 auto;padding:14px}.card{background:#fff;border:1px solid #d3e2d8;border-radius:12px;padding:16px;margin-bottom:14px}
+label{display:block;font-weight:bold;margin:12px 0 4px}input,select,textarea{width:100%;padding:10px;border:1px solid #bcd0c3;border-radius:8px;font:inherit}
+.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}.menu a{display:block;background:#fff;border:2px solid #0f7a43;border-radius:12px;padding:28px 16px;text-align:center;font-size:1.2rem;font-weight:bold;color:#0f7a43;text-decoration:none}
+.ok{background:#e0f3e7;padding:10px;border-radius:8px;margin-bottom:10px}.err{background:#fde4e4;padding:10px;border-radius:8px;margin-bottom:10px}
+.skala{display:flex;gap:6px;flex-wrap:wrap}.skala label{font-weight:normal;margin:0;border:1px solid #bcd0c3;border-radius:8px;padding:8px 10px;flex:1;min-width:110px;text-align:center}
+.skala input{width:auto;margin-right:4px}.stat{display:flex;gap:8px;flex-wrap:wrap}.stat div{flex:1;min-width:120px;background:#e8f3ec;border-radius:10px;padding:10px;text-align:center}.stat b{display:block;font-size:1.4rem}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.85rem}th,td{border:1px solid #cfdcd3;padding:6px;text-align:left;vertical-align:top}th{background:#e8f3ec}
+.filter{display:flex;gap:8px;flex-wrap:wrap;align-items:end}.filter div{flex:1;min-width:140px}.filter label{margin-top:0}
+@media print{nav,.noprint{display:none}header{background:#fff;color:#000;border-bottom:2px solid #000}body{background:#fff}}
